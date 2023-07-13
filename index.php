@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 
-<h1>Hello World!</h1>
+<main class="main">
+  <section class="hero">
+    <div class="hero__container">
+    </div>
+  </section>
+</main>
 
 <?php get_footer(); ?>

@@ -1,13 +1,19 @@
 // general
+@import "general/reset";
 @import "general/normalize";
+@import "general/functions";
 @import "general/fonts";
 @import "general/variables";
 @import "general/base";
 
 // components
-@import "components/wrapper";
-@import "components/header";
 
-* {
-  border: 1px solid red;
-}
+// ========= HEADER
+@import "components/header";
+@import "components/menu";
+@import "components/logo";
+@import "components/contact-box";
+
+// ========= MAIN
+@import "components/main";
+@import "components/hero";

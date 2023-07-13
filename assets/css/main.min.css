@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;
+
+/*Обнуление*/
+
+600&display=swap");*{padding:0;margin:0;border:0}
+*,*:before,*:after{-webkit-box-sizing:border-box;box-sizing:border-box}
+:focus,:active{outline:0}
+a:focus,a:active{outline:0}
+nav,footer,header,aside{display:block}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+input,button,textarea{font-family:inherit}
+input::-ms-clear{display:none}
+button{cursor:pointer}
+button::-moz-focus-inner{padding:0;border:0}
+a,a:visited{text-decoration:none}
+a:hover{text-decoration:none}
+ul li{list-style:none}
+img{vertical-align:top}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}
 body{margin:0}
 main{display:block}
@@ -32,11 +51,28 @@ details{display:block}
 summary{display:list-item}
 template{display:none}
 [hidden]{display:none}
-@font-face{font-family:"RFDewi-Bold";src:url("../fonts/RFDewi-Bold.woff2") format("woff2"),url("../fonts/RFDewi-Bold.woff") format("woff")}
-@font-face{font-family:"Gilroy-Regular";src:url("../fonts/RFDewi-Bold.woff2") format("woff2"),url("../fonts/Gilroy-Regular.woff") format("woff")}
+@font-face{font-family:"RFDewi-Expanded";src:url("../fonts/RFDewiExpanded-Bold.woff2") format("woff2"),url("../fonts/RFDewiExpanded-Bold.woff") format("woff");font-weight:bold}
+@font-face{font-family:"Gilroy";src:url("../fonts/Gilroy-Regular.woff2") format("woff2"),url("../fonts/Gilroy-Regular.woff") format("woff");font-weight:thin}
+@font-face{font-family:"Gilroy";src:url("../fonts/Gilroy-Medium.woff2") format("woff2"),url("../fonts/Gilroy-Medium.woff") format("woff");font-weight:normal}
 html{font-size:1em}
-body{font-family:"RFDewi-Bold",Fallback;color:#333}
-[class*="__container"]{max-width:76.25rem;margin:0 auto}
+body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
+[class*="__container"]{max-width:76rem;margin:0 auto}
 .wrapper{overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;min-height:100%}
-.header{position:absolute;height:5.5rem;border:1px solid red}
-*{border:1px solid red}
+.header{position:absolute;height:5.5rem;width:100%}
+.header__container{padding:.875rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid grey}
+.menu{-webkit-box-flex:0;-ms-flex:0 1 17.0625rem;flex:0 1 17.0625rem}
+.menu__list{display:-webkit-box;display:-ms-flexbox;display:flex}
+.menu__item:not(:last-child){margin-right:1.25rem}
+.menu__link{font-size:.9375rem;font-family:"Gilroy",Fallback;font-weight:400;color:#4f4f4f;-webkit-transition:color .2s ease;transition:color .2s ease}
+.menu__link:hover{color:#2faee5}
+.logo{height:3.75rem;width:12.5625rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin:0 auto}
+.logo__image-box{width:2.1875rem;height:3rem;-webkit-transform:translateY(-3px);transform:translateY(-3px)}
+.logo__title{font-family:"Golos Text",sans-serif;font-size:1.125rem;font-weight:bold;text-transform:uppercase;line-height:1;color:#333}
+.logo__subtitle{font-family:"Golos Text",sans-serif;font-size:.75rem;line-height:1;letter-spacing:1.5px;color:#7a9aae}
+.contact-box{-webkit-box-flex:0;-ms-flex:0 1 13.75rem;flex:0 1 13.75rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.contact-box__text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.contact-box__tel{font-family:"RFDewi-Expanded",Fallback;font-size:1rem;font-weight:700;line-height:1.2;color:#333}
+.contact-box__schedule{font-family:"Gilroy",Fallback;font-size:.875rem;font-weight:400;line-height:1.2;color:#7a9aae}
+.contact-box__image-box{display:block;margin-left:1rem}
+.main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}
+.hero{padding-top:9.875rem;height:56.25rem;background-color:#eea}
