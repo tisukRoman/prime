@@ -1,4 +1,5 @@
-// general
+// ======= GENERAL
+
 @import "general/reset";
 @import "general/normalize";
 @import "general/functions";
@@ -7,14 +8,17 @@
 @import "general/utils";
 @import "general/base";
 
-// components
+// ======== COMPONENTS
 
-// ========= HEADER
+// header
 @import "components/header";
 @import "components/menu";
 @import "components/logo";
 @import "components/contact-box";
 
-// ========= MAIN
+// main
 @import "components/main";
 @import "components/hero";
+
+// shared
+@import "components/button";

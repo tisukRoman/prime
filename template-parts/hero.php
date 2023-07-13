@@ -5,5 +5,8 @@
     <div class="hero__image-box">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/air-conditioner.png" alt="Air Conditioner" />
     </div>
+    <button type="button" class="button hero__button">
+      Request a quote
+    </button>
   </div>
 </section>

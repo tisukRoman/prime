@@ -1,12 +1,13 @@
 .hero {
   padding-top: rem(158);
-  height: rem(900);
+  padding-bottom: rem(114);
   background-color: #eed;
 
   &__container {
     border: 1px solid grey;
     text-align: center;
     color: $color-dark-1;
+    position: relative;
   }
 
   &__title {
@@ -24,6 +25,10 @@
     line-height: 1;
   }
 
-  &__image-box {
+  &__button {
+    position: absolute;
+    bottom: rem(120);
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

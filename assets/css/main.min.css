@@ -77,7 +77,9 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .contact-box__schedule{font-family:"Gilroy",Fallback;font-size:.875rem;font-weight:400;line-height:1.2;color:#7a9aae}
 .contact-box__image-box{display:block;margin-left:1rem}
 .main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}
-.hero{padding-top:9.875rem;height:56.25rem;background-color:#eed}
-.hero__container{border:1px solid grey;text-align:center;color:#333}
+.hero{padding-top:9.875rem;padding-bottom:7.125rem;background-color:#eed}
+.hero__container{border:1px solid grey;text-align:center;color:#333;position:relative}
 .hero__title{margin:0;font-size:4rem;text-transform:uppercase;line-height:1}
 .hero__subtitle{margin-top:1.25rem;font-family:"Gilroy",Fallback;font-weight:400;font-size:1.5rem;line-height:1}
+.hero__button{position:absolute;bottom:7.5rem;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+.button{display:inline-block;background-color:#ffd466;border-radius:.75rem;font-size:1.1875rem;line-height:1;text-align:center;text-transform:uppercase;color:#333;padding:1.875rem 2.5rem}
