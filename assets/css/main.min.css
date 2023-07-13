@@ -54,6 +54,8 @@ template{display:none}
 @font-face{font-family:"RFDewi-Expanded";src:url("../fonts/RFDewiExpanded-Bold.woff2") format("woff2"),url("../fonts/RFDewiExpanded-Bold.woff") format("woff");font-weight:bold}
 @font-face{font-family:"Gilroy";src:url("../fonts/Gilroy-Regular.woff2") format("woff2"),url("../fonts/Gilroy-Regular.woff") format("woff");font-weight:thin}
 @font-face{font-family:"Gilroy";src:url("../fonts/Gilroy-Medium.woff2") format("woff2"),url("../fonts/Gilroy-Medium.woff") format("woff");font-weight:normal}
+.u-orange{color:#ec6726}
+.u-accent{color:#2faee5}
 html{font-size:1em}
 body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 [class*="__container"]{max-width:76rem;margin:0 auto}
@@ -75,4 +77,7 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .contact-box__schedule{font-family:"Gilroy",Fallback;font-size:.875rem;font-weight:400;line-height:1.2;color:#7a9aae}
 .contact-box__image-box{display:block;margin-left:1rem}
 .main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}
-.hero{padding-top:9.875rem;height:56.25rem;background-color:#eea}
+.hero{padding-top:9.875rem;height:56.25rem;background-color:#eed}
+.hero__container{border:1px solid grey;text-align:center;color:#333}
+.hero__title{margin:0;font-size:4rem;text-transform:uppercase;line-height:1}
+.hero__subtitle{margin-top:1.25rem;font-family:"Gilroy",Fallback;font-weight:400;font-size:1.5rem;line-height:1}

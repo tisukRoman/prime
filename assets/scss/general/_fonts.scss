@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "RFDewi-Expanded";
+  src: url("../fonts/RFDewiExpanded-Bold.woff2") format("woff2"),
+    url("../fonts/RFDewiExpanded-Bold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: thin;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600&display=swap");

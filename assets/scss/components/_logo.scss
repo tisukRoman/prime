@@ -1,0 +1,31 @@
+.logo {
+  height: rem(60);
+  width: rem(201);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  &__image-box {
+    width: rem(35);
+    height: rem(48);
+    transform: translateY(-3px);
+  }
+
+  &__title {
+    font-family: $font-tertiary;
+    font-size: rem(18);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    color: $color-dark-1;
+  }
+
+  &__subtitle {
+    font-family: $font-tertiary;
+    font-size: rem(12);
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: $color-accent-2;
+  }
+}

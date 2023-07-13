@@ -1,0 +1,21 @@
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: $font-primary; // RFDewi-Bold
+  color: $color-dark-1;
+  line-height: 1;
+}
+
+[class*="__container"] {
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
