@@ -74,18 +74,29 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .contact-box__tel{font-family:"RFDewi-Expanded",Fallback;font-size:1rem;font-weight:700;line-height:1.2;color:#333}
 .contact-box__schedule{font-family:"Gilroy",Fallback;font-size:.875rem;font-weight:400;line-height:1.2;color:#7a9aae}
 .contact-box__image-box{display:block;margin-left:1rem}
-.button{display:inline-block;background-color:#ffd466;border-radius:.75rem;font-size:1.1875rem;line-height:1;text-align:center;text-transform:uppercase;color:#333;padding:1.875rem 2.5rem}
+.button{display:inline-block;background-color:#ffd466;border-radius:.75rem;font-size:1.1875rem;line-height:1;text-align:center;text-transform:uppercase;color:#333;padding:1.875rem 2.5rem;-webkit-transition:all .2s ease;transition:all .2s ease}
+.button:hover{background-color:#ec6726}
 .title{font-size:2.5rem;text-transform:uppercase;line-height:1;color:#333}
 .title span{color:#2faee5}
+.wpcf7 p label{font-family:"Gilroy",Fallback;font-size:1.0625rem;color:#bdbdbd}
+.wpcf7 p .field{height:3.75rem;margin-right:1.25rem;border-bottom:2px solid #333;-webkit-transition:all .2s ease;transition:all .2s ease;font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#333}
+.wpcf7 p .field::-webkit-input-placeholder{font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#bdbdbd}
+.wpcf7 p .field::-moz-placeholder{font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#bdbdbd}
+.wpcf7 p .field:-ms-input-placeholder{font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#bdbdbd}
+.wpcf7 p .field::-ms-input-placeholder{font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#bdbdbd}
+.wpcf7 p .field::placeholder{font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#bdbdbd}
+.wpcf7 p .field:focus{border-bottom:2px solid #2faee5;caret-color:#2faee5}
 .header{position:absolute;height:5.5rem;width:100%}
 .header__container{padding:.875rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}
+.main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;margin-bottom:300px}
 .hero{padding-top:9.875rem}
 .hero__container{text-align:center;color:#333;position:relative}
 .hero__title{margin:0;font-size:4rem;text-transform:uppercase;line-height:1}
 .hero__subtitle{margin-top:1.25rem;font-family:"Gilroy",Fallback;font-weight:400;font-size:1.5rem;line-height:1}
 .hero__button{position:absolute;bottom:6.875rem;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
-.contact__container{height:22.875rem;position:relative}
-.contact__image-box{position:absolute;top:0;right:0}
+.contact__container{position:relative}
+.contact__image-box{position:absolute;top:0;right:0;z-index:0}
 .contact__title{margin-top:2.5rem}
 .contact__button{margin-top:2.5rem}
+.contact__form{margin-top:2.5rem;max-width:52.875rem}
+.contact__form .wpcf7 p{margin-top:2.5rem}
