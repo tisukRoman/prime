@@ -9,6 +9,7 @@ body {
 }
 
 [class*="__container"] {
+  border: 1px solid grey;
   max-width: $container-width;
   margin: 0 auto;
 }

@@ -10,15 +10,15 @@
 
 // ======== COMPONENTS
 
-// header
-@import "components/header";
 @import "components/menu";
 @import "components/logo";
 @import "components/contact-box";
-
-// main
-@import "components/main";
-@import "components/hero";
-
-// shared
 @import "components/button";
+@import "components/title";
+
+// ======== SECTIONS
+
+@import "sections/header";
+@import "sections/main";
+@import "sections/hero";
+@import "sections/contact";
