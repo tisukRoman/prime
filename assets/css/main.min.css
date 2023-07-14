@@ -75,9 +75,11 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .contact-box__schedule{font-family:"Gilroy",Fallback;font-size:.875rem;font-weight:400;line-height:1.2;color:#7a9aae}
 .contact-box__image-box{display:block;margin-left:1rem}
 .button{display:inline-block;background-color:#ffd466;border-radius:.75rem;font-size:1.1875rem;line-height:1;text-align:center;text-transform:uppercase;color:#333;padding:1.875rem 2.5rem;-webkit-transition:all .2s ease;transition:all .2s ease}
-.button:hover{background-color:#ffd400}
+.button:hover{background-color:#ffcd4d}
+.button:active{background-color:#ffe08f}
 .button--outline{background-color:#fff;border:2px solid #ffd466}
 .button--outline:hover{background-color:#ffd466}
+.button--outline:active{background-color:#ffe08f}
 .title{font-size:2.5rem;text-transform:uppercase;line-height:1;color:#333}
 .title span{color:#2faee5}
 .about-card{height:12rem;-webkit-box-shadow:0 0 20px 0 #096c9726;box-shadow:0 0 20px 0 #096c9726;border-radius:1.125rem;position:relative}
@@ -128,3 +130,6 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .services{margin-top:8.75rem}
 .services__flex{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .services__grid{margin-top:3.75rem;display:grid;grid-template-rows:1fr;grid-template-columns:repeat(3,1fr);grid-gap:1.25rem}
+.reviews{height:58.6875rem;margin-top:6.25rem;background:url("../img/reviews-bg.jpg") no-repeat center}
+.reviews__container{padding-top:6.25rem}
+.reviews__list{margin-top:2.5rem}
