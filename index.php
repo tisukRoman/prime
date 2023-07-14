@@ -3,11 +3,11 @@
 <main class="main">
 
 <?php
-  get_template_part('template-parts/hero');
-  get_template_part('template-parts/contact');
-  get_template_part('template-parts/about');
-  get_template_part('template-parts/services');
-  get_template_part('template-parts/reviews');
+  get_template_part('sections/hero');
+  get_template_part('sections/contact');
+  get_template_part('sections/about');
+  get_template_part('sections/services');
+  get_template_part('sections/reviews');
 ?>
 
 </main>

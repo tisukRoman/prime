@@ -56,7 +56,7 @@ template{display:none}
 @font-face{font-family:"Gilroy";src:url("../fonts/Gilroy-Medium.woff2") format("woff2"),url("../fonts/Gilroy-Medium.woff") format("woff");font-weight:normal}
 .u-orange{color:#ec6726}
 .u-accent{color:#2faee5}
-html{font-size:1em}
+html{font-size:1em;scroll-behavior:smooth}
 body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 [class*="__container"]{max-width:76rem;margin:0 auto}
 .wrapper{overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;min-height:100%}
@@ -65,7 +65,7 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .menu__item:not(:last-child){margin-right:1.25rem}
 .menu__link{font-size:.9375rem;font-family:"Gilroy",Fallback;font-weight:400;color:#4f4f4f;-webkit-transition:color .2s ease;transition:color .2s ease}
 .menu__link:hover{color:#2faee5}
-.logo{height:3.75rem;width:12.5625rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin:0 auto}
+.logo{height:3.75rem;width:12.5625rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .logo__image-box{width:2.1875rem;height:3rem;-webkit-transform:translateY(-3px);transform:translateY(-3px)}
 .logo__title{font-family:"Golos Text",sans-serif;font-size:1.125rem;font-weight:bold;text-transform:uppercase;line-height:1;color:#333}
 .logo__subtitle{font-family:"Golos Text",sans-serif;font-size:.75rem;line-height:1;letter-spacing:1.5px;color:#7a9aae}
@@ -128,8 +128,8 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .wpcf7 p .field:focus{border-bottom:2px solid #2faee5;caret-color:#2faee5}
 .header{position:absolute;height:5.5rem;width:100%}
 .header__container{padding:.875rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;margin-bottom:300px}
-.hero{padding-top:9.875rem}
+.main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}
+.hero{padding-top:9.875rem;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0.7)),to(white)),-webkit-gradient(linear,right top,left top,from(rgba(47,174,229,0.3)),to(rgba(47,174,229,0.8))),url("../img/hero-bg.png");background-image:linear-gradient(to bottom,rgba(255,255,255,0.7),white),linear-gradient(to left,rgba(47,174,229,0.3),rgba(47,174,229,0.8)),url("../img/hero-bg.png");background-position:center 30%;background-size:120%}
 .hero__container{text-align:center;color:#333;position:relative}
 .hero__title{margin:0;font-size:4rem;text-transform:uppercase;line-height:1}
 .hero__subtitle{margin-top:1.25rem;font-family:"Gilroy",Fallback;font-weight:400;font-size:1.5rem;line-height:1}
@@ -152,3 +152,11 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .reviews__container{padding-top:6.25rem}
 .reviews__list{margin-top:2.5rem;display:grid;grid-template-rows:repeat(2,1fr);grid-template-columns:repeat(3,1fr);grid-gap:1.25rem}
 .reviews__button{margin-top:2.5rem}
+.footer__container{margin-top:3.75rem;margin-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.footer__location{margin-top:1rem;display:-webkit-box;display:-ms-flexbox;display:flex}
+.footer__location-text{margin-left:.5rem;width:13.5625rem;font-family:"Gilroy",Fallback;font-size:.875rem;line-height:1.2}
+.footer__tel{font-size:2rem;color:#2faee5}
+.footer__box{width:95%;margin-left:auto}
+.footer__email{display:block;margin:1.5rem auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.footer__email a{margin-left:.5rem;font-family:"Gilroy",Fallback;font-size:1.25rem;font-weight:thin;color:#333}
+.footer__button{display:block;margin:1.25rem auto;margin-top:1.25rem;padding:1.25rem 1.5rem 1.25rem 1.5rem;width:100%}
