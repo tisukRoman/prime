@@ -92,9 +92,12 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .services-card__wrapper{position:relative;width:100%;height:100%;border-radius:1.125rem;-webkit-box-shadow:0 0 20px 0 #096c9726;box-shadow:0 0 20px 0 #096c9726;background-color:#fff;padding:.625rem}
 .services-card__image-box{width:100%}
 .services-card__image-box img{width:100%}
-.services-card__actions{margin:.9375rem 2.1875rem 2.1875rem 2.1875rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:9.625rem}
+.services-card__actions{margin:.9375rem 2.1875rem 1.5625rem 2.1875rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:9.625rem}
 .services-card__title{font-size:1.5rem;line-height:1.2;text-transform:uppercase}
 .services-card__button{width:100%}
+.services-card__link{display:inline-block;cursor:pointer;margin:0 2.1875rem 1.5625rem 2.1875rem;font-size:1.25rem !important}
+.link{font-size:.9375rem;font-family:"Gilroy",Fallback;font-weight:400;color:#2faee5;-webkit-transition:color .2s ease;transition:color .2s ease}
+.link:hover{color:#7a9aae}
 .wpcf7 p label{font-family:"Gilroy",Fallback;font-size:1.0625rem;color:#bdbdbd}
 .wpcf7 p .field{display:inline-block;height:3.75rem;max-width:25rem;border-bottom:2px solid #333;-webkit-transition:all .2s ease;transition:all .2s ease;font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#333}
 .wpcf7 p .field::-webkit-input-placeholder{font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#bdbdbd}
