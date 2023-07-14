@@ -2,7 +2,7 @@
   <div class="footer__container">
 
     <div class="footer__info">
-      <div class="logo">
+      <a href="/" class="logo">
         <div class="logo__image-box">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Prime air group" />
         </div>
@@ -10,12 +10,12 @@
           <div class="logo__title">PrimeAirGroup</div>
           <div class="logo__subtitle">stay cool, stay fresh!</div>
         </div>
-      </div>
+      </a>
       <div class="footer__location">
         <div class="footer__location-icon">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/location.svg" alt="location marker" />
         </div>
-        <div class="footer__location-text">1825 Coney Island Ave floor 2, Brooklyn, NY 11230</div>
+        <a href="https://goo.gl/maps/Ui8ZNpnoeWWuPtZKA" class="footer__location-link">1825 Coney Island Ave floor 2, Brooklyn, NY 11230</a>
       </div>
     </div>
 

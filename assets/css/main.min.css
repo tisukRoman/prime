@@ -164,7 +164,7 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .reviews__button{margin-top:2.5rem}
 .footer__container{margin-top:3.75rem;margin-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .footer__location{margin-top:1rem;display:-webkit-box;display:-ms-flexbox;display:flex}
-.footer__location-text{margin-left:.5rem;width:13.5625rem;font-family:"Gilroy",Fallback;font-size:.875rem;line-height:1.2}
+.footer__location-link{margin-left:.5rem;width:13.5625rem;font-family:"Gilroy",Fallback;font-size:.875rem;line-height:1.2;color:#333}
 .footer__tel{font-size:2rem;color:#2faee5}
 .footer__box{width:95%;margin-left:auto}
 .footer__email{display:block;margin:1.5rem auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}

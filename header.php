@@ -29,7 +29,7 @@
         </ul>
       </nav>
 
-      <div class="logo">
+      <a href="/" class="logo">
         <div class="logo__image-box">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Prime air group" />
         </div>
@@ -37,14 +37,14 @@
           <div class="logo__title">PrimeAirGroup</div>
           <div class="logo__subtitle">stay cool, stay fresh!</div>
         </div>
-      </div>
+      </a>
 
       <div class="contact-box">
         <div class="contact-box__text">
-          <a href="tel:+84 846 250 592" class="contact-box__tel">+84 846 250 592</a>
+          <a href="tel:+84846250592" class="contact-box__tel">+84 846 250 592</a>
           <div class="contact-box__schedule">Everyday 8:00 - 20:00</div>
         </div>
-        <a href="mailto:hello@gmail.com" class="contact-box__image-box">
+        <a href="mailto:call@primeairgroup.com" class="contact-box__image-box">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.svg" alt="Mail icon" />
         </a>
       </div>
