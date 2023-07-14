@@ -1,10 +1,11 @@
 // ======= GENERAL
 
+@import "general/mixins";
+@import "general/functions";
+@import "general/variables";
 @import "general/reset";
 @import "general/normalize";
-@import "general/functions";
 @import "general/fonts";
-@import "general/variables";
 @import "general/utils";
 @import "general/base";
 

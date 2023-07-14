@@ -10,9 +10,9 @@ body {
 }
 
 [class*="__container"] {
-  //  border: 1px solid grey;
-  max-width: $container-width;
+  max-width: rem(1216 + 64);
   margin: 0 auto;
+  padding: 0 32px;
 }
 
 .wrapper {
