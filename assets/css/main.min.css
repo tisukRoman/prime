@@ -98,8 +98,26 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .services-card__title{font-size:1.5rem;line-height:1.2;text-transform:uppercase}
 .services-card__button{width:100%}
 .services-card__link{display:inline-block;cursor:pointer;margin:0 2.1875rem 1.5625rem 2.1875rem;font-size:1.25rem !important}
+.review{width:25.75rem;padding:.625rem;-webkit-box-shadow:0 0 20px 0 #096c9726;box-shadow:0 0 20px 0 #096c9726;border-radius:1.125rem;background-color:#fff}
+.review__header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding-bottom:.75rem;border-bottom:1px solid #bdbdbd}
+.review__link{font-weight:bold !important;color:#2faee5;cursor:pointer}
+.review__rating-box{margin-top:.5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
+.review__rating-box span{margin-left:.375rem;font-family:"Gilroy",Fallback;font-size:.875rem;font-weight:normal;color:#bdbdbd}
+.review__rating{width:6.25rem;height:1.0625rem}
+.review__rating img{width:100%}
+.review__passport{margin:.75rem 0;display:-webkit-box;display:-ms-flexbox;display:flex}
+.review__passport-flex{margin-top:.125rem;display:-webkit-box;display:-ms-flexbox;display:flex}
+.review__passport-info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;margin-right:.75rem}
+.review__passport-content{margin-left:.75rem}
+.review__passport-icon{display:block;width:1rem;height:1rem}
+.review__passport-icon img{width:100%}
+.review__passport-count{font-family:"Gilroy",Fallback;font-size:.75rem;margin-left:.375rem}
+.review__avatar-box{width:2.125rem;height:2.125rem;border-radius:8px;overflow:hidden}
+.review__avatar-box img{width:100%}
+.review__text{margin-top:.75rem;font-family:"Gilroy",Fallback;font-size:.75rem;line-height:1.2;padding-bottom:.75rem;border-bottom:1px solid #bdbdbd}
+.review__read-more{display:block;padding:.75rem .25rem .25rem .25rem;font-size:.875rem !important;text-align:center;cursor:pointer}
 .link{font-size:.9375rem;font-family:"Gilroy",Fallback;font-weight:400;color:#2faee5;-webkit-transition:color .2s ease;transition:color .2s ease}
-.link:hover{color:#7a9aae}
+.link:hover{color:#b2e8ff}
 .wpcf7 p label{font-family:"Gilroy",Fallback;font-size:1.0625rem;color:#bdbdbd}
 .wpcf7 p .field{display:inline-block;height:3.75rem;max-width:25rem;border-bottom:2px solid #333;-webkit-transition:all .2s ease;transition:all .2s ease;font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#333}
 .wpcf7 p .field::-webkit-input-placeholder{font-family:"RFDewi-Expanded",Fallback;font-size:1.5rem;text-transform:uppercase;color:#bdbdbd}
@@ -130,6 +148,7 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .services{margin-top:8.75rem}
 .services__flex{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .services__grid{margin-top:3.75rem;display:grid;grid-template-rows:1fr;grid-template-columns:repeat(3,1fr);grid-gap:1.25rem}
-.reviews{height:58.6875rem;margin-top:6.25rem;background:url("../img/reviews-bg.jpg") no-repeat center}
+.reviews{height:58.6875rem;margin-top:6.25rem;margin-bottom:6.25rem;background:url("../img/reviews-bg.jpg") no-repeat center}
 .reviews__container{padding-top:6.25rem}
-.reviews__list{margin-top:2.5rem}
+.reviews__list{margin-top:2.5rem;display:grid;grid-template-rows:repeat(2,1fr);grid-template-columns:repeat(3,1fr);grid-gap:1.25rem}
+.reviews__button{margin-top:2.5rem}
