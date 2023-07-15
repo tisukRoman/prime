@@ -140,6 +140,24 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .wpcf7 form.sent .wpcf7-response-output{font-family:"Golos Text",sans-serif;padding:0;color:#32cd32;border:0}
 .wpcf7 form.aborted .wpcf7-response-output,.wpcf7 form.failed .wpcf7-response-output,.wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output{font-family:"Golos Text",sans-serif;padding:0;color:red;border:0}
 .wpcf7 .wpcf7-not-valid-tip{display:none}
+.slick-slider{position:relative;display:block;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
+.slick-list{position:relative;overflow:hidden;display:block;margin:0;padding:0}
+.slick-list:focus{outline:0}
+.slick-list.dragging{cursor:pointer;cursor:hand}
+.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.slick-track{position:relative;left:0;top:0;display:block;margin-left:auto;margin-right:auto}
+.slick-track:before,.slick-track:after{content:"";display:table}
+.slick-track:after{clear:both}
+.slick-loading .slick-track{visibility:hidden}
+.slick-slide{float:left;height:100%;min-height:1px;display:none}
+[dir="rtl"] .slick-slide{float:right}
+.slick-slide img{display:block}
+.slick-slide.slick-loading img{display:none}
+.slick-slide.dragging img{pointer-events:none}
+.slick-initialized .slick-slide{display:block}
+.slick-loading .slick-slide{visibility:hidden}
+.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+.slick-arrow.slick-hidden{display:none}
 .header{position:absolute;height:5.5rem;width:100%}
 .header__container{padding:.875rem 2rem .875rem 2rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .header__menu-icon{display:none}
@@ -169,6 +187,7 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .services__button--mobile{display:none;margin:2.5rem auto}
 .services__grid{margin-top:3.75rem;display:grid;grid-gap:1.25rem;grid-auto-rows:1fr;grid-template-columns:repeat(3,1fr)}
 .reviews{margin-top:6.25rem;margin-bottom:6.25rem;background:url("../img/reviews-bg.jpg") no-repeat center}
+.reviews .slick-slide{margin:0 .5rem}
 .reviews__container{padding-top:6.25rem}
 .reviews__list{margin-top:2.5rem;display:grid;grid-gap:1.25rem;grid-auto-rows:1fr;grid-template-columns:repeat(auto-fit,minmax(18.75rem,1fr));-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .reviews__button{margin-top:2.5rem}
