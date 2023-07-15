@@ -1,4 +1,4 @@
-<section class="footer">
+<footer class="footer">
   <div class="footer__container">
 
     <div class="footer__info">
@@ -17,6 +17,7 @@
         </div>
         <a href="https://goo.gl/maps/Ui8ZNpnoeWWuPtZKA" class="footer__location-link">1825 Coney Island Ave floor 2, Brooklyn, NY 11230</a>
       </div>
+      <p class="footer__hidden-text">All rights reserved 2023 © PrimeAirGroup</p>
     </div>
 
     <nav class="menu footer__menu">
@@ -34,6 +35,7 @@
           <a href="#contact" class="menu__link">Contact</a>
         </li>
       </ul>
+      <p class="footer__hidden-text">Privacy Policy</p>
     </nav>
 
     <div class="footer__contact">
@@ -49,7 +51,7 @@
     
 
   </div>
-</section>
+</footer>
 
 
         </div>

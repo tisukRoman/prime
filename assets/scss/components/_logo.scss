@@ -5,6 +5,10 @@
   align-items: center;
   justify-content: space-between;
 
+  @include for-mobile {
+    transform: scale(0.9);
+  }
+
   &__image-box {
     width: rem(35);
     height: rem(48);
