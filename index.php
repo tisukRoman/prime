@@ -8,6 +8,9 @@
   get_template_part('sections/about');
   get_template_part('sections/services');
   get_template_part('sections/reviews');
+
+  get_template_part('components/popup', 'form');
+  get_template_part('components/popup', 'menu');
 ?>
 
 </main>
