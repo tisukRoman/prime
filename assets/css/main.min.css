@@ -65,8 +65,9 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .menu__item:not(:last-child){margin-right:1.25rem}
 .menu__link{font-size:.9375rem;font-family:"Gilroy",Fallback;font-weight:400;color:#4f4f4f;-webkit-transition:color .2s ease;transition:color .2s ease}
 .menu__link:hover{color:#2faee5}
-.logo{height:3.75rem;width:12.5625rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.logo{height:3.75rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:.625rem}
 .logo__image-box{width:2.1875rem;height:3rem;-webkit-transform:translateY(-3px);transform:translateY(-3px)}
+.logo__image-box img{width:100%}
 .logo__title{font-family:"Golos Text",sans-serif;font-size:1.125rem;font-weight:bold;text-transform:uppercase;line-height:1;color:#333}
 .logo__subtitle{font-family:"Golos Text",sans-serif;font-size:.75rem;line-height:1;letter-spacing:1.5px;color:#7a9aae}
 .contact-box{-webkit-box-flex:0;-ms-flex:0 1 13.75rem;flex:0 1 13.75rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
@@ -172,7 +173,7 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 .slick-arrow.slick-hidden{display:none}
 .header{position:absolute;height:5.5rem;width:100%}
-.header__container{padding:.875rem 2rem .875rem 2rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.header__container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .header__menu-icon{display:none}
 .main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}
 .hero{padding-top:9.875rem;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0.7)),to(white)),-webkit-gradient(linear,right top,left top,from(rgba(47,174,229,0.3)),to(rgba(47,174,229,0.8))),url("../img/hero-bg.png");background-image:linear-gradient(to bottom,rgba(255,255,255,0.7),white),linear-gradient(to left,rgba(47,174,229,0.3),rgba(47,174,229,0.8)),url("../img/hero-bg.png");background-repeat:no-repeat;background-position:center 30%;background-size:130%}
@@ -207,7 +208,7 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .footer__container{margin-top:3.75rem;margin-bottom:2.5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
 .footer__info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .footer__menu{margin-top:1.25rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
-.footer__location{margin-top:1rem;display:-webkit-box;display:-ms-flexbox;display:flex}
+.footer__location{margin-top:1rem;display:-webkit-box;display:-ms-flexbox;display:flex;gap:.5rem}
 .footer__location-link{width:13.5625rem;font-family:"Gilroy",Fallback;font-size:.875rem;line-height:1.2;color:#333}
 .footer__tel{color:#2faee5}
 .footer__box{margin-left:auto;width:95%}
@@ -215,6 +216,8 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .footer__email a{margin-left:.5rem;font-family:"Gilroy",Fallback;color:#333}
 .footer__button{display:block;margin:1.25rem auto;margin-top:1.25rem;padding:1.25rem 1.5rem 1.25rem 1.5rem;width:100%}
 .footer__hidden-text{margin:auto 0 1.5rem 0;font-family:"Gilroy",Fallback;font-weight:400;color:#e0e0e0}
+.footer__mobile-section{width:100%;margin-top:1.25rem;display:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:1.875rem;-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}
+.footer__mobile-section .footer__hidden-text{margin:0;display:block;font-size:.625rem}
 @media(min-width:767px){.button{font-size:calc(16px + 3 * (100vw / 1900))}
 .title{font-size:calc(26px + 14 * (100vw / 1900))}
 .about-card__title{font-size:calc(11px + 9 * (100vw / 1900))}
@@ -234,9 +237,13 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .footer__tel{font-size:calc(26px + 6 * (100vw / 1900))}
 .footer__email a{font-size:calc(18px + 2 * (100vw / 1900))}
 .footer__hidden-text{font-size:calc(10px + 2 * (100vw / 1900))}
-}@media(max-width:991.98px){.about-card__content{padding:2rem}
+.footer__mobile-section .footer__hidden-text{font-size:calc(10px + 2 * (100vw / 1900))}
+}@media(max-width:991.98px){html{font-size:.9em}
+.about-card__content{padding:2rem}
 .about-card__content{padding:1.5rem}
 .about-card__image-box{width:2.75rem;height:2.75rem}
+.services-card__actions{height:auto}
+.services-card__button{margin-top:1rem}
 .header__menu{display:none}
 .header__contact-box{display:none}
 .header__menu-icon{display:block}
@@ -256,22 +263,7 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .footer__box{margin:0 auto;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .footer__hidden-text{display:none}
 .footer__contact{margin:1.25rem auto 0 auto}
-}@media(max-width:767.98px){.logo{-webkit-transform:scale(0.9);transform:scale(0.9)}
-.popup__box{-webkit-transform:scale(0.9);transform:scale(0.9)}
-.popup__close-icon{-webkit-transform:scale(1.1);transform:scale(1.1);right:.75rem;top:.875rem}
-.header__container{padding:.875rem 1rem .875rem 1rem}
-.hero{padding-top:8.625rem}
-.hero__button{position:relative;width:100%}
-.contact__container .wpcf_flex_fields p{width:100%}
-.contact__container .wpcf_flex_fields p .field{max-width:100%}
-.contact__container .field{display:block;width:100%}
-.contact__container .contact__button{display:block;width:100%}
-.contact__image-box{position:relative;text-align:center}
-.contact__form{margin-top:1.875rem}
-.about__image-box{-webkit-box-flex:0;-ms-flex:0 1 auto;flex:0 1 auto;width:100%}
-.about__button{width:100%}
-.services__button--mobile{width:100%}
-.reviews__button{width:100%}
+.footer__mobile-section{display:-webkit-box;display:-ms-flexbox;display:flex}
 }@media(max-width:767px){.button{font-size:calc(16px + 5.1 * ((100vw - 320px) / 1900))}
 .title{font-size:calc(26px + 23.8 * ((100vw - 320px) / 1900))}
 .about-card__title{font-size:calc(11px + 15.3 * ((100vw - 320px) / 1900))}
@@ -291,6 +283,20 @@ body{font-family:"RFDewi-Expanded",Fallback;color:#333;line-height:1}
 .footer__tel{font-size:calc(26px + 10.2 * ((100vw - 320px) / 1900))}
 .footer__email a{font-size:calc(18px + 3.4 * ((100vw - 320px) / 1900))}
 .footer__hidden-text{font-size:calc(10px + 3.4 * ((100vw - 320px) / 1900))}
-}@media(max-width:479.98px){.about-card__content{padding:1.25rem}
-.reviews__button{padding:1.25rem 1.25rem;line-height:1.5}
+.footer__mobile-section .footer__hidden-text{font-size:calc(10px + 3.4 * ((100vw - 320px) / 1900))}
+}@media(max-width:767.98px){.hero{padding-top:8.625rem}
+.hero__button{position:relative;width:100%}
+.contact__container .wpcf_flex_fields p{width:100%}
+.contact__container .wpcf_flex_fields p .field{max-width:100%}
+.contact__container .field{display:block;width:100%}
+.contact__container .contact__button{display:block;width:100%}
+.contact__image-box{position:relative;text-align:center}
+.contact__form{margin-top:1.875rem}
+.about__image-box{-webkit-box-flex:0;-ms-flex:0 1 auto;flex:0 1 auto;width:100%}
+.about__button{width:100%}
+.services__button--mobile{width:100%}
+.reviews__button{width:100%}
+}@media(max-width:479.98px){html{font-size:.8em}
+.about-card__content{padding:1.25rem}
+.reviews__button{padding:1.25rem .625rem;line-height:1.5}
 }

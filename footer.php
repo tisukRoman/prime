@@ -49,6 +49,10 @@
       </div>
     </div>
     
+    <div class="footer__mobile-section">
+      <p class="footer__hidden-text">All rights reserved 2023 © PrimeAirGroup</p>
+      <p class="footer__hidden-text">Privacy policy</p>
+    </div>
 
   </div>
 </footer>
