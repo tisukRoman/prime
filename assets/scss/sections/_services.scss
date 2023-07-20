@@ -1,0 +1,54 @@
+.services {
+  margin-top: rem(140);
+
+  @include for-tablet-portrait {
+    margin-top: rem(50);
+  }
+
+  &__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    @include for-tablet-portrait {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+  }
+
+  &__button {
+    @include for-tablet-portrait {
+      display: none;
+    }
+
+    &--mobile {
+      display: none;
+      margin: rem(40) auto;
+
+      @include for-tablet-portrait {
+        display: block;
+        width: rem(400);
+      }
+
+      @include for-mobile {
+        width: 100%;
+      }
+    }
+  }
+
+  &__grid {
+    margin-top: rem(60);
+    display: grid;
+    grid-gap: rem(20);
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+
+    @include for-tablet-portrait {
+      margin-top: rem(30);
+      grid-template-columns: minmax(320px, 400px);
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.popup-form {
+  &__title {
+    font-size: rem(24);
+  }
+
+  &__description {
+    margin-top: rem(16);
+    font-family: $font-secondary;
+    font-size: rem(17);
+    line-height: 1.5;
+  }
+
+  &__form {
+    margin-top: 0 !important;
+  }
+
+  .wpcf7 .field {
+    max-width: 100%;
+  }
+
+  .wpcf7 .wpcf7-submit {
+    width: 100%;
+  }
+
+  .wpcf7 {
+    p {
+      margin-top: rem(25) !important;
+    }
+  }
+}

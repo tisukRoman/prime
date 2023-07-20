@@ -1,0 +1,47 @@
+.popup {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($color-accent-1, 0.4);
+  backdrop-filter: blur(6px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+
+  // initial state
+  visibility: hidden;
+  opacity: 0;
+
+  &--open {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &__box {
+    max-width: rem(400);
+    padding: rem(40);
+    background-color: #fff;
+    border-radius: rem(20);
+    position: relative;
+
+    transform: scale(0.8);
+    transition: all 0.3s ease-out;
+  }
+
+  &--open &__box {
+    transform: scale(1);
+  }
+
+  &__close-icon {
+    display: inline-block;
+    position: absolute;
+    top: rem(4);
+    right: rem(4);
+    cursor: pointer;
+  }
+}

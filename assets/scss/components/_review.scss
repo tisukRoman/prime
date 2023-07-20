@@ -1,0 +1,107 @@
+.review {
+  padding: rem(10);
+  box-shadow: 0px 0px 20px 0px #096c9726;
+  border-radius: rem(18);
+  background-color: #fff;
+
+  &__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: rem(12);
+    border-bottom: 1px solid $color-dark-4;
+  }
+
+  &__link {
+    font-weight: bold !important;
+    color: $color-accent-1;
+    cursor: pointer;
+  }
+
+  &__rating-box {
+    margin-top: rem(8);
+    display: flex;
+    align-items: flex-end;
+
+    span {
+      margin-left: rem(6);
+      font-family: $font-secondary;
+      font-size: rem(14);
+      font-weight: normal;
+      color: $color-dark-4;
+    }
+  }
+
+  &__rating {
+    width: rem(100);
+    height: rem(17);
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__passport {
+    margin: rem(12) 0;
+    display: flex;
+
+    &-flex {
+      margin-top: rem(2);
+      display: flex;
+    }
+
+    &-info {
+      display: flex;
+      align-items: flex-end;
+      margin-right: rem(12);
+    }
+
+    &-content {
+      margin-left: rem(12);
+    }
+
+    &-icon {
+      display: block;
+      width: rem(16);
+      height: rem(16);
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &-count {
+      font-family: $font-secondary;
+      font-size: rem(12);
+      margin-left: rem(6);
+    }
+  }
+
+  &__avatar-box {
+    width: rem(34);
+    height: rem(34);
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__text {
+    margin-top: rem(12);
+    font-family: $font-secondary;
+    font-size: rem(12);
+    line-height: 1.2;
+    padding-bottom: rem(12);
+    border-bottom: 1px solid $color-dark-4;
+  }
+
+  &__read-more {
+    display: block;
+    padding: rem(12) rem(4) rem(4) rem(4);
+    font-size: rem(14) !important;
+    text-align: center;
+    cursor: pointer;
+  }
+}

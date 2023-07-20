@@ -1,0 +1,60 @@
+.contact {
+  &__container {
+    position: relative;
+
+    @include for-mobile {
+      .wpcf_flex_fields p {
+        width: 100%;
+
+        .field {
+          max-width: 100%;
+        }
+      }
+
+      .field {
+        display: block;
+        width: 100%;
+      }
+
+      .contact__button {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  &__image-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    @include for-mobile {
+      position: relative;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    padding-top: rem(80);
+  }
+
+  &__form {
+    margin-top: rem(40);
+    position: relative;
+    z-index: 2;
+
+    @include for-mobile {
+      margin-top: rem(30);
+    }
+
+    .wpcf7 {
+      p {
+        margin-top: rem(40);
+      }
+    }
+  }
+}

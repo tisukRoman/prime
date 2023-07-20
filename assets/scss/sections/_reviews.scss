@@ -1,0 +1,49 @@
+.reviews {
+  padding: rem(100) 0;
+  background: url("../img/reviews-bg.jpg") no-repeat center;
+
+  /* the slides */
+  .slick-slide {
+    margin: 0 rem(8);
+  }
+
+  @include for-tablet-portrait {
+    padding-top: 0;
+    padding-bottom: rem(60);
+  }
+
+  &__container {
+    padding-top: rem(100);
+
+    @include for-tablet-portrait {
+      padding-top: rem(60);
+    }
+  }
+
+  &__list {
+    margin-top: rem(40);
+    display: grid;
+    grid-gap: rem(20);
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(rem(300), 1fr));
+    justify-content: center;
+  }
+
+  &__button {
+    margin-top: rem(40);
+
+    @include for-tablet-portrait {
+      display: block;
+      margin: rem(40) auto 0 auto;
+    }
+
+    @include for-mobile {
+      width: 100%;
+    }
+
+    @include for-thumbnail {
+      padding: rem(20) rem(10);
+      line-height: 1.5;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.wpcf7 {
+  .wpcf_flex_fields {
+    display: flex;
+    gap: rem(20);
+    flex-wrap: wrap;
+  }
+
+  p {
+    label {
+      @include responsive-font(17, 15);
+      font-family: $font-secondary;
+      color: $color-dark-4;
+    }
+  }
+
+  form .field {
+    background: linear-gradient(to right rgba(#fff, 0.6), rgba(#fff, 0.4));
+    display: inline-block;
+    height: rem(60);
+    max-width: rem(400);
+    border-bottom: 2px solid $color-dark-1;
+    transition: all 0.2s ease;
+
+    font-family: $font-primary;
+    @include responsive-font(24, 20);
+    text-transform: uppercase;
+    color: $color-dark-1;
+
+    &::placeholder {
+      font-family: $font-primary;
+      @include responsive-font(24, 20);
+      text-transform: uppercase;
+      color: $color-dark-4;
+    }
+
+    &:focus {
+      border-bottom: 2px solid $color-accent-1;
+      caret-color: $color-accent-1;
+    }
+  }
+
+  form.aborted .field,
+  form.failed .field,
+  form.invalid .field,
+  form.unaccepted .field {
+    border-bottom: 2px solid #f00;
+    transition: all 0.2s ease;
+
+    &::placeholder {
+      color: rgba(#f00, 0.2);
+    }
+  }
+
+  form.sent .wpcf7-response-output {
+    transition: all 0.2s ease;
+    font-family: $font-tertiary;
+    @include responsive-font(20, 16);
+    padding: 0;
+    color: #32cd32;
+    border: none;
+  }
+
+  form.aborted .wpcf7-response-output,
+  form.failed .wpcf7-response-output,
+  form.invalid .wpcf7-response-output,
+  form.unaccepted .wpcf7-response-output {
+    transition: all 0.2s ease;
+    font-family: $font-tertiary;
+    @include responsive-font(20, 16);
+    padding: 0;
+    color: #f00;
+    border: none;
+  }
+
+  .wpcf7-not-valid-tip {
+    transition: all 0.2s ease;
+    display: none;
+  }
+}

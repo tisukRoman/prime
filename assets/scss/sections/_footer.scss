@@ -1,0 +1,138 @@
+.footer {
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+
+  &__container {
+    margin-top: rem(60);
+    margin-bottom: rem(40);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    @include for-tablet-portrait {
+      margin-top: rem(30);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__menu {
+    margin-top: rem(20);
+    display: flex;
+    flex-direction: column;
+
+    @include for-tablet-portrait {
+      margin: rem(20) auto;
+      flex: 0 0;
+      order: 3;
+    }
+  }
+
+  &__location {
+    margin-top: rem(16);
+    display: flex;
+    gap: rem(8);
+
+    &-link {
+      width: rem(217);
+      font-family: $font-secondary;
+      font-size: rem(14);
+      line-height: 1.2;
+      color: $color-dark-1;
+    }
+
+    @include for-tablet-portrait {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: rem(8);
+    }
+  }
+
+  &__tel {
+    @include responsive-font(32, 26);
+    color: $color-accent-1;
+  }
+
+  &__box {
+    margin-left: auto;
+    width: 95%;
+
+    @include for-tablet-portrait {
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__email {
+    display: block;
+    margin: rem(24) auto 0 auto;
+    display: flex;
+    align-items: center;
+
+    a {
+      margin-left: rem(8);
+      font-family: $font-secondary;
+      @include responsive-font(20, 18);
+      color: $color-dark-1;
+    }
+  }
+
+  &__button {
+    display: block;
+    margin: rem(20) auto;
+    margin-top: rem(20);
+    padding: rem(20) rem(24) rem(20) rem(24);
+    width: 100%;
+  }
+
+  &__hidden-text {
+    margin: auto 0 rem(24) 0;
+    font-family: $font-secondary;
+    font-weight: 400;
+    @include responsive-font(12, 10);
+    color: $color-dark-5;
+
+    @include for-tablet-portrait {
+      display: none;
+    }
+  }
+
+  &__contact {
+    @include for-tablet-portrait {
+      margin: rem(20) auto 0 auto;
+    }
+  }
+
+  &__mobile-section {
+    width: 100%;
+    margin-top: rem(20);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: rem(30);
+    order: 4;
+
+    @include for-tablet-portrait {
+      display: flex;
+    }
+  }
+
+  &__mobile-section &__hidden-text {
+    margin: 0;
+    display: block;
+    font-size: rem(10);
+    @include responsive-font(12, 10);
+  }
+}

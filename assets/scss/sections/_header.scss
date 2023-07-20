@@ -1,0 +1,33 @@
+.header {
+  position: absolute;
+  height: rem(88);
+  width: 100%;
+  z-index: 5;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    @include for-tablet-portrait {
+      display: none;
+    }
+  }
+
+  &__contact-box {
+    @include for-tablet-portrait {
+      display: none;
+    }
+  }
+
+  // for mobile ...
+  &__menu-icon {
+    display: none;
+
+    @include for-tablet-portrait {
+      display: block;
+    }
+  }
+}

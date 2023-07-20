@@ -1,0 +1,18 @@
+.icon {
+  width: rem(40);
+  height: rem(40);
+  display: block;
+  padding: rem(8);
+  border: 3px solid $color-accent-1;
+  border-radius: rem(8);
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-color: $color-light-1;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
