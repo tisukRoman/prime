@@ -2,8 +2,8 @@ html {
   font-size: 1em;
   scroll-behavior: smooth;
 
-  @include for-tablet-portrait {
-    font-size: 0.9em;
+  @media (max-width: 1440.98px) {
+    font-size: 0.8em;
   }
 
   @include for-thumbnail {
@@ -18,9 +18,15 @@ body {
 }
 
 [class*="__container"] {
-  max-width: rem(1256 + 64);
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 16px;
+
+  max-width: rem(1256 + 32);
+  width: 80%;
+
+  @include for-tablet-portrait {
+    width: 100%;
+  }
 }
 
 .wrapper {
@@ -29,4 +35,21 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+
+.content {
+  background-color: #fff;
+  position: relative;
+  z-index: 4;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: rem(60);
+    transform: translate(0px, -100%);
+    background: linear-gradient(180deg, rgba(#fff, 0.3), rgba(#fff, 0.8));
+  }
 }
