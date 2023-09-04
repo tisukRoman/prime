@@ -16,7 +16,6 @@
             <h3 class="services-card__title">Mini-split installation</h3>
             <button class="button services-card__button">Free Estimate</button>
           </div>
-          <a href="/" class="link services-card__link">Learn more</a>
         </div>
       </div>
 
@@ -29,7 +28,6 @@
             <h3 class="services-card__title">Service calls</h3>
             <button class="button services-card__button">Call now</button>
           </div>
-          <a href="/" class="link services-card__link">Learn more</a>
         </div>
       </div>
 
@@ -42,7 +40,6 @@
             <h3 class="services-card__title">Maintence and season check up</h3>
             <button class="button services-card__button">Order now</button>
           </div>
-          <a href="/" class="link services-card__link">Learn more</a>
         </div>
       </div>
 
