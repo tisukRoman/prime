@@ -50,7 +50,7 @@
       <div class="contact-box header__contact-box">
         <div class="contact-box__text">
           <a href="tel:+84846250592" class="contact-box__tel">+84 846 250 592</a>
-          <div class="contact-box__schedule">Everyday 8:00 - 20:00</div>
+          <div class="contact-box__schedule">Everyday 8 am - 8 pm</div>
         </div>
         <a href="mailto:call@primeairgroup.com" class="icon contact-box__mail-icon">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mail-small.svg" alt="Mail icon" />
