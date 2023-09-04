@@ -1,8 +1,12 @@
 .contact-box {
-  flex: 0 1 rem(220);
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex: 1 1;
+
+  @include for-tablet-portrait {
+    display: block;
+  }
 
   &__text {
     display: flex;
@@ -13,7 +17,7 @@
 
   &__tel {
     font-family: $font-primary;
-    font-size: rem(16);
+    @include responsive-font(14, 8);
     font-weight: 700;
     line-height: 1.2;
     color: $color-dark-1;
@@ -25,9 +29,29 @@
     font-weight: 400;
     line-height: 1.2;
     color: $color-accent-2;
+
+    @include for-tablet-portrait {
+      display: none;
+    }
+  }
+
+  &__email {
+    display: none;
+    font-family: $font-secondary;
+    text-align: right;
+    color: $color-dark-1;
+    @include responsive-font(14, 8);
+
+    @include for-tablet-portrait {
+      display: block;
+    }
   }
 
   &__mail-icon {
     margin-left: rem(16);
+
+    @include for-tablet-portrait {
+      display: none !important;
+    }
   }
 }

@@ -13,9 +13,11 @@
     <div class="header__container">
 
       <!-- MENU ICON -->
+      <div class="flex-wrapper">
         <div class="icon header__menu-icon">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/menu-icon.svg" alt="menu-icon" />
         </div>
+      </div>
       <!-- MENU ICON END -->
 
       <nav class="menu header__menu">
@@ -53,16 +55,16 @@
         <a href="mailto:call@primeairgroup.com" class="icon contact-box__mail-icon">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mail-small.svg" alt="Mail icon" />
         </a>
+        <a class="contact-box__email" href="mailto:call@primeairgroup.com">call@primeairgroup.com</a>
+        
       </div>
 
-      <!-- MOBILE ICON -->
+      <!-- MOBILE ICON 
         <a href="tel:+84846250592" class="icon header__menu-icon">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mobile.svg" alt="mobile-icon" />
         </a>
-      <!-- MOBILE ICON END -->
+       MOBILE ICON END -->
 
     </div>
-
-
 
   </header>

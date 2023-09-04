@@ -1,5 +1,5 @@
 .menu {
-  flex: 0 1 rem(273);
+  flex: 1 1;
 
   &__list {
     display: flex;
@@ -19,5 +19,14 @@
     &:hover {
       color: $color-accent-1;
     }
+  }
+}
+
+.flex-wrapper {
+  display: none;
+  flex: 1 1;
+
+  @include for-tablet-portrait {
+    display: block;
   }
 }

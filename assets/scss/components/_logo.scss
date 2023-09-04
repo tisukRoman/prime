@@ -4,6 +4,10 @@
   align-items: center;
   gap: rem(10);
 
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+
   &__image-box {
     width: rem(35);
     height: rem(48);

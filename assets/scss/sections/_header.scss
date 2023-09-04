@@ -16,12 +16,6 @@
     }
   }
 
-  &__contact-box {
-    @include for-tablet-portrait {
-      display: none;
-    }
-  }
-
   // for mobile ...
   &__menu-icon {
     display: none;
