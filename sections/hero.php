@@ -4,8 +4,10 @@
 
   <!-- FLYING PARTICLES -->
   <div id="particle-container">
-    <?php for($i = 0; $i < 40; $i++){ ?>
-      <div class="particle"></div>
+    <?php for($i = 0; $i < 30; $i++){ ?>
+      <div class="particle">
+        <img width="24px" height="24px" src="<?php echo get_template_directory_uri(); ?>/assets/img/snowflake.svg" alt="Snowflake" />
+      </div>
     <?php } ?>
   </div>
 

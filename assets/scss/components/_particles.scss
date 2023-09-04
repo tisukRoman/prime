@@ -5,7 +5,7 @@
   border-radius: 50%;
 }
 
-@for $i from 1 through 40 {
+@for $i from 1 through 30 {
   @keyframes particle-animation-#{$i} {
     100% {
       transform: translate3d(
@@ -28,8 +28,6 @@
       (random(90) * 3vh),
       (random(100) * 1px)
     );
-    background: $color-accent-1;
-    box-shadow: 0px 0px 12px $color-accent-1;
 
     @if $i % 6 == 0 {
       z-index: 4;
