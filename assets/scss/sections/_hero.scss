@@ -91,17 +91,11 @@
   }
 
   &__button {
-    position: absolute;
-    bottom: 4vw;
+    position: sticky;
+    bottom: 6rem;
     left: 50%;
-    transform: translateX(-50%);
-
-    @include for-tablet-landscape {
-      margin-top: rem(40);
-    }
 
     @include for-mobile {
-      position: relative;
       width: 100%;
     }
   }
