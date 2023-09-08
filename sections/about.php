@@ -14,7 +14,12 @@
             <div class="about-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
               <div class="about-card__content">
                 <div class="about-card__image-box">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/seven-years-experience.svg" alt="Seven Years Experience" />
+                  <?php
+                    $img_2x = get_template_directory_uri() . "/assets/img/seven-years-experience@2x.png";
+                    $img_1x = get_template_directory_uri() . "/assets/img/seven-years-experience.png";
+                    $srcset = $img_2x . " 2x";
+                  ?>
+                  <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_2x; ?>" alt="Seven Years Experience" />
                 </div>
                 <div class="about-card__text">
                   <h4 class="about-card__title about-card__title--accent">7 years</h4>
@@ -26,7 +31,12 @@
             <div class="about-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="300">
               <div class="about-card__content">
                 <div class="about-card__image-box">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/professional-team.svg" alt="Professional team" />
+                  <?php
+                    $img_2x = get_template_directory_uri() . "/assets/img/professional-services@2x.png";
+                    $img_1x = get_template_directory_uri() . "/assets/img/professional-services.png";
+                    $srcset = $img_2x . " 2x";
+                  ?>
+                  <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_1x; ?>" alt="Professional team" />
                 </div>
                 <div class="about-card__text">
                   <h4 class="about-card__title about-card__title--accent">Professional</h4>
@@ -38,7 +48,12 @@
           <div class="about-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="600">
             <div class="about-card__content">
               <div class="about-card__image-box">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/free-estimate.svg" alt="Free Estimate" />
+                <?php
+                  $img_2x = get_template_directory_uri() . "/assets/img/experience@2x.png";
+                  $img_1x = get_template_directory_uri() . "/assets/img/experience.png";
+                  $srcset = $img_2x . " 2x";
+                ?>
+                <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_1x; ?>" alt="Free Estimate" />
               </div>
               <div class="about-card__text">
                 <h4 class="about-card__title">free</h4>
@@ -50,7 +65,12 @@
           <div class="about-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="900">
             <div class="about-card__content">
               <div class="about-card__image-box">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/customer-support.svg" alt="Customer Support" />
+                <?php
+                  $img_2x = get_template_directory_uri() . "/assets/img/support@2x.png";
+                  $img_1x = get_template_directory_uri() . "/assets/img/support.png";
+                  $srcset = $img_2x . " 2x";
+                ?>
+                <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_1x; ?>" alt="Customer Support" />
               </div>
               <div class="about-card__text">
                 <h4 class="about-card__title">customer</h4>
