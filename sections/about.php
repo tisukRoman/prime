@@ -15,11 +15,12 @@
               <div class="about-card__content">
                 <div class="about-card__image-box">
                   <?php
+                    $img_3x = get_template_directory_uri() . "/assets/img/seven-years-experience@3x.png";
                     $img_2x = get_template_directory_uri() . "/assets/img/seven-years-experience@2x.png";
                     $img_1x = get_template_directory_uri() . "/assets/img/seven-years-experience.png";
-                    $srcset = $img_2x . " 2x";
+                    $srcset = $img_2x . " 2x " . $img_3x . " 3x";
                   ?>
-                  <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_2x; ?>" alt="Seven Years Experience" />
+                  <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_1x; ?>" alt="Seven Years Experience" />
                 </div>
                 <div class="about-card__text">
                   <h4 class="about-card__title about-card__title--accent">7 years</h4>
@@ -32,9 +33,10 @@
               <div class="about-card__content">
                 <div class="about-card__image-box">
                   <?php
+                    $img_3x = get_template_directory_uri() . "/assets/img/professional-services@3x.png";
                     $img_2x = get_template_directory_uri() . "/assets/img/professional-services@2x.png";
                     $img_1x = get_template_directory_uri() . "/assets/img/professional-services.png";
-                    $srcset = $img_2x . " 2x";
+                    $srcset = $img_2x . " 2x " . $img_3x . " 3x";
                   ?>
                   <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_1x; ?>" alt="Professional team" />
                 </div>
@@ -49,9 +51,10 @@
             <div class="about-card__content">
               <div class="about-card__image-box">
                 <?php
+                  $img_3x = get_template_directory_uri() . "/assets/img/experience@3x.png";
                   $img_2x = get_template_directory_uri() . "/assets/img/experience@2x.png";
                   $img_1x = get_template_directory_uri() . "/assets/img/experience.png";
-                  $srcset = $img_2x . " 2x";
+                  $srcset = $img_2x . " 2x " . $img_3x . " 3x";
                 ?>
                 <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_1x; ?>" alt="Free Estimate" />
               </div>
@@ -66,9 +69,10 @@
             <div class="about-card__content">
               <div class="about-card__image-box">
                 <?php
+                  $img_3x = get_template_directory_uri() . "/assets/img/support@3x.png";
                   $img_2x = get_template_directory_uri() . "/assets/img/support@2x.png";
                   $img_1x = get_template_directory_uri() . "/assets/img/support.png";
-                  $srcset = $img_2x . " 2x";
+                  $srcset = $img_2x . " 2x " . $img_3x . " 3x";
                 ?>
                 <img srcset="<?php echo $srcset; ?>" src="<?php echo $img_1x; ?>" alt="Customer Support" />
               </div>
