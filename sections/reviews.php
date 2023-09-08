@@ -63,7 +63,7 @@
   
     </div>
 
-    <button class="button reviews__button">Leave your feedback</button>
+    <a class="button reviews__button" href="https://www.yelp.com/biz/prime-air-group-brooklyn-4">Leave your feedback</a>
   </div>
 
 </section>
