@@ -5,62 +5,13 @@
 
     <div class="reviews__list">
 
-      <?php for($i = 0; $i < 6; $i++){ ?>
-        <div class="review" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="<?php echo $i * 100; ?>">
-            <div class="review__header">
-              <div class="review__header-content">
-                <a href="/" class="link review__link">Prime Air Group</a>
-                <div class="review__rating-box">
-                  <div class="review__rating">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/rating.png" alt="5 stars" />
-                  </div>
-                  <span>52 reviews</span>
-                </div>
-              </div>
-              <div class="review__header-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yelp-logo.png" alt="yelp" />
-              </div>
-            </div>
+        <span class="yelp-review" data-review-id="6N4t1zLjFuPR17XbMR7reA" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=lz9R6Eq1TcWpBPU-Tcn1KQ" rel="nofollow noopener">Benjamin N.</a>'s <a href="https://www.yelp.com/biz/prime-air-group-brooklyn-4?hrid=6N4t1zLjFuPR17XbMR7reA" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/E4xPmRo7KPQQ-zWdYGHUEg" rel="nofollow noopener">Prime Air Group</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+        <span class="yelp-review" data-review-id="TKRGKF0I7SEgmQfRpmOkpQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=VyEvfrehO8bRjnclIzt0Og" rel="nofollow noopener">Jenny M.</a>'s <a href="https://www.yelp.com/biz/prime-air-group-brooklyn-4?hrid=TKRGKF0I7SEgmQfRpmOkpQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/E4xPmRo7KPQQ-zWdYGHUEg" rel="nofollow noopener">Prime Air Group</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+        <span class="yelp-review" data-review-id="JvBLAQUiOWEdZFzvnJVQQg" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=EQiv9IKEtQwYyZVxf3uIow" rel="nofollow noopener">Thomas P.</a>'s <a href="https://www.yelp.com/biz/prime-air-group-brooklyn-4?hrid=JvBLAQUiOWEdZFzvnJVQQg" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/E4xPmRo7KPQQ-zWdYGHUEg" rel="nofollow noopener">Prime Air Group</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+        <span class="yelp-review" data-review-id="X-kbr4zEFqPd9rit4MaSKA" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=GwokHdFwGTXLYVwTyCcDOg" rel="nofollow noopener">Jeremy P.</a>'s <a href="https://www.yelp.com/biz/prime-air-group-brooklyn-4?hrid=X-kbr4zEFqPd9rit4MaSKA" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/E4xPmRo7KPQQ-zWdYGHUEg" rel="nofollow noopener">Prime Air Group</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+        <span class="yelp-review" data-review-id="AxwXelneoTU4OoYyFFh9_g" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=5FuhsUyCciePs75mCdEe_A" rel="nofollow noopener">J J.</a>'s <a href="https://www.yelp.com/biz/prime-air-group-brooklyn-4?hrid=AxwXelneoTU4OoYyFFh9_g" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/E4xPmRo7KPQQ-zWdYGHUEg" rel="nofollow noopener">Prime Air Group</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+        <span class="yelp-review" data-review-id="IceehopkeFefErk4qsjygQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=FRUI7l76RMFASiJ-M8FxYw" rel="nofollow noopener">Sochieta M.</a>'s <a href="https://www.yelp.com/biz/prime-air-group-brooklyn-4?hrid=IceehopkeFefErk4qsjygQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/E4xPmRo7KPQQ-zWdYGHUEg" rel="nofollow noopener">Prime Air Group</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
 
-            <div class="review__passport">
-              <div class="review__avatar-box">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/review-1.jpg" alt="review 1" />
-              </div>
-              <div class="review__passport-content">
-                <a class="link review__link">Marcelo B.</a>
-                <div class="review__passport-flex">
-                  <div class="review__passport-info">
-                    <span class="review__passport-icon">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/friend-icon.png" alt="Friend icon" />
-                    </span>
-                    <span class="review__passport-count">133</span>
-                  </div>
-                  <div class="review__passport-info">
-                    <span class="review__passport-icon">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/star-icon.png" alt="Star icon" />
-                    </span>
-                    <span class="review__passport-count">22</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="review__rating-box">
-              <div class="review__rating">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/rating.png" alt="5 stars" />
-              </div>
-              <span>7/14/2019</span>
-            </div>
-
-            <div class="review__text">
-              Used yelp to get quotes for my window AC installation, these guys were the first to promptly answer and give me a competitive rate. I contacted prime in the morning because my kenmore 12k BTU seemed to be too challenging of an installation. I'm glad I did, they came same day and did an awesome job.…
-            </div>
-
-            <a class="link review__read-more">Read more on Yelp</a>
-
-        </div>
-      <?php } ?>
-  
     </div>
 
     <a class="button reviews__button" href="https://www.yelp.com/biz/prime-air-group-brooklyn-4">Leave your feedback</a>
