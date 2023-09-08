@@ -14,7 +14,7 @@
 
     </div>
 
-    <a class="button reviews__button" href="https://www.yelp.com/biz/prime-air-group-brooklyn-4">Leave your feedback</a>
+    <a class="button reviews__button" target="_blank" href="https://www.yelp.com/biz/prime-air-group-brooklyn-4">Leave your feedback</a>
   </div>
 
 </section>
